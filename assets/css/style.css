@@ -1,5 +1,5 @@
 * {
-    margin: 0 1% 0 1%;
+    margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
@@ -13,11 +13,12 @@
 
 .navbar {
     width: 85%;
-    margin: auto;
+    margin: 0 4% 15px 6%;
     padding: 10px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #696A75;
 }
 
 .navbar a {
@@ -42,6 +43,8 @@ ul {
     display: inline-block;
     margin: 0 20px;
 }
+
+/*------SEARCH----------*/
 
 .search_container:hover {
     min-width: 100px;
@@ -81,6 +84,7 @@ ul {
     cursor: pointer;
 }
 
+/*------SEARCH----------*/
 
 /*----------------------------------NAVBAR---------------------------------*/
 
@@ -90,79 +94,154 @@ ul {
 
 
 /*----------------------------------FOOTER---------------------------------*/
-
-footer{
-    position: fixed;
+.about h3,.services h3{
+    padding-bottom: 10px;
+}
+footer {
+    width: 100%;
+    background: #E8E8EA;
+    position: relative;
+    left: 0;
     bottom: 0;
-    background: Secondary/100;
     color: #181A2A;
-    display: flex;
     flex-direction: column;
+    display: block;
 }
 
-.footer_container{
-    border-top: 1px solid #696A75;
-    padding: 2px 10px;
+.footer_container {
+    padding: 20px;
     display: flex;
     text-align: center;
 }
 
-.services{
-    flex-grow: 1;
-    flex-basis: 65%;
-}
-.about{
-    flex-grow: 1;
-    flex-basis: 100%;
-}
-.contact{
+.services {
     flex-grow: 1;
     flex-basis: 100%;
 }
 
-p{
+.about {
+    flex-grow: 1;
+    flex-basis: 80%;
+}
+
+.about li {
+    display: block;
+    margin: 5px 0;
+    list-style-type: none;
+    line-height: 1.2;
+}
+
+/*---------SUBSCRİBE------------*/
+.subscribe {
+    margin-right: 20px;
+    flex-grow: 1;
+    flex-basis: 60%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe input{
+    width: 68%;
+    border: 1px solid #DCDDDF;
+    border-radius: 6px;
+    padding: 12px 20px;
+    background: white;
+    
+}
+
+.subscribe button {
+    margin: 10px;
+    padding: 12px 0;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 80%;
+    background: #4B6BFB;
+}
+
+.subscribe h3{
+    color: #141624;
+    margin: 5%;
+}
+
+.subscribe div{
+    margin: 10px 0;
+}
+
+/*---------SUBSCRİBE------------*/
+p {
+    text-indent: 1%;
     color: #696A75;
 }
 
-.services ul li{
+.services ul li {
     list-style-type: none;
     line-height: 1.7;
 }
 
-.footer_container a{
+.services a {
     color: #181A2A;
     font-weight: 400;
     font-size: 18px;
     text-decoration: none;
-    color: #181A2A;
     position: relative;
 }
 
-.contact ul li{
-    list-style-type: none;
-    line-height: 1.7;
-}
-
-address{
-    display: inline;
-}
-
-.copyright{
+.copyright {
+    display: flex;
+    justify-content: space-between;
     padding: 15px 0;
-    text-align: center;
     border-top: 1px solid #696A75;
 }
 
-.cont_text{
+.copy{
+    margin-left: 20px;
+}
+
+.links a {
+    margin: 0 20px 0 0;
+    color: #141624;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline;
+}
+
+.cont_text {
     font-weight: bold;
 }
 
+
 /*----------------------------------FOOTER---------------------------------*/
 
-@media only screen and (max-width: 764px){
-    .footer_container{
+@media only screen and (max-width: 764px) {
+    .footer_container {
+        position: relative;
         flex-direction: column;
     }
+
+    ul {
+        flex-direction: column;
+    }
+
+    .navbar ul li {
+        display: block;
+    }
+
+    .services{
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .subscribe {
+        padding: 5px 5%;
+        width: 50%;
+        margin: auto;
+    }
+    .subscribe button{
+        width: 82%;
+    }
 }
-
-
