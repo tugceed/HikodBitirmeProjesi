@@ -1,0 +1,168 @@
+* {
+    margin: 0 1% 0 1%;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*------------------------------------NAVBAR------------------------------------*/
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: #181A2A;
+    text-transform: uppercase;
+    position: relative;
+}
+
+ul {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.search_container:hover {
+    min-width: 100px;
+    align-items: center;
+    height: 17px;
+    display: flex;
+    background: white;
+    width: 15%;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: 0.8s;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+    margin-right: 5px;
+}
+
+.search_container {
+    justify-content: space-between;
+    width: 100px;
+    align-items: center;
+    display: flex;
+}
+
+.search_container:hover input {
+    width: 100%;
+    cursor: pointer;
+}
+
+.search_container input {
+    background: transparent;
+    border: none;
+    outline: none;
+    transition: 0.8s;
+    width: 0;
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+}
+
+
+/*----------------------------------NAVBAR---------------------------------*/
+
+
+
+
+
+
+/*----------------------------------FOOTER---------------------------------*/
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background: Secondary/100;
+    color: #181A2A;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_container{
+    border-top: 1px solid #696A75;
+    padding: 2px 10px;
+    display: flex;
+    text-align: center;
+}
+
+.services{
+    flex-grow: 1;
+    flex-basis: 65%;
+}
+.about{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+.contact{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+p{
+    color: #696A75;
+}
+
+.services ul li{
+    list-style-type: none;
+    line-height: 1.7;
+}
+
+.footer_container a{
+    color: #181A2A;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: #181A2A;
+    position: relative;
+}
+
+.contact ul li{
+    list-style-type: none;
+    line-height: 1.7;
+}
+
+address{
+    display: inline;
+}
+
+.copyright{
+    padding: 15px 0;
+    text-align: center;
+    border-top: 1px solid #696A75;
+}
+
+.cont_text{
+    font-weight: bold;
+}
+
+/*----------------------------------FOOTER---------------------------------*/
+
+@media only screen and (max-width: 764px){
+    .footer_container{
+        flex-direction: column;
+    }
+}
+
+
