@@ -145,7 +145,7 @@ ul {
 }
 
 .card .title_container {
-    margin: 15px;
+    margin: 20px;
 }
 
 .card .title_container .title {
@@ -204,7 +204,6 @@ ul {
 .trending_post {
     width: 86%;
     margin: 20px;
-
 }
 
 .trending_post .title {
@@ -217,7 +216,7 @@ ul {
 }
 
 .trending_post .title h5 {
-    font-weight: 800;
+    font-weight: bold;
     font-size: 1.2rem;
     display: inline-flex;
     align-items: center;
@@ -244,16 +243,11 @@ ul {
 
 .cards_container {
     width: 85%;
-    margin: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .cards_container .cards {
     justify-content: space-between;
     display: flex;
-
 }
 
 .cards_container .cards .detail_container {
@@ -288,13 +282,9 @@ ul {
 }
 
 .cards_container .cards .detail_container .title a {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-weight: bold;
     text-transform: capitalize;
     text-decoration: none;
     color: #FFFFFF;
-    transition: 0.7s;
 }
 
 .cards_container .cards .detail_container .title .title_detail {
@@ -314,12 +304,110 @@ ul {
     border: none;
     width: 90px;
     height: 25px;
-    transition: 0.7s;
+}
+
+/*-------------TRENDİNG_POST--------------*/
+
+/*-------------EDİTOR_PİCK--------------*/
+
+.editor_pick {
+    width: 86%;
+    margin: 20px;
+}
+
+.editor_pick .title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px;
+}
+
+.editor_pick .title h5 {
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.editor_pick .title a {
+    color: #676a72;
+    text-decoration: none;
+    margin: 0 1.67em;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 16px;
+    border: 0.000001rem solid #676a72;
+    border-radius: 7px;
+    height: 3rem;
+    transition: 0.8s;
+}
+
+.editor_pick .title a:hover {
+    background-color: #676a72;
+    color: #FFFFFF;
+    transition: 0.8s;
+}
+
+.editor_container .cards_container {
+    width: 100%;
+}
+
+.editor_container {
+    width: 85%;
+    margin-bottom: 20px;
+}
+
+.editor_container .cards .detail_container {
+    width: 32%;
+}
+
+ .editor_container .cards .card1 {
+    background-image: url(../img/post-2.webp);
+}
+
+.editor_container .cards .card2 {
+    background-image: url(../img/women-in-tech-business-benefits.jpg);
+}
+
+.editor_container .cards .card3 {
+    background: #FFFFFF;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 320px;
+}
+
+.editor_container .cards .detail_container .column .item{
+    padding: 5px;
+    height: 77px;
+    border: 1px solid #E8E8EA;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
 }
 
 
 
-/*-------------TRENDİNG_POST--------------*/
+.editor_container .cards .detail_container .column .item .image img{
+    border-radius: 10px;
+    width: 115px;
+}
+
+.editor_container .cards_container .cards .card3 .title a {
+    font-size: 1.10rem;
+    color: black;
+}
+.editor_container .cards_container .cards .card3 .title .date{
+    margin-top: 5px;
+}
+
+
+
+
+/*-------------EDİTOR_PİCK--------------*/
 
 /*----------------------------------SECTION---------------------------------*/
 
@@ -520,6 +608,7 @@ footer {
         width: 90%;
         margin-bottom: 20px;
     }
+
     .cards_container .cards {
         align-content: space-around;
         flex-direction: column;
@@ -533,6 +622,7 @@ footer {
         width: 45%;
         margin-bottom: 20px;
     }
+
     .cards_container .cards {
         display: flex;
         flex-wrap: wrap;
@@ -540,6 +630,16 @@ footer {
         justify-content: space-around;
         align-items: center;
     }
-}
 
+    .editor_container .cards_container .cards .card3 {
+        margin-top: 40px;
+        height: 260px;
+        width: 95%;
+    }
+
+    .editor_container .cards .detail_container .column .item{
+        margin-bottom: 10px;
+
+    }
+}
 /*----------------------------------@media---------------------------------*/
