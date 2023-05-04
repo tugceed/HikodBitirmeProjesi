@@ -620,17 +620,12 @@ p a {
 }
 
 .ek_gorsel {
-  width: 60%;
-  margin-left: 20%;
+  width: 98%;
   border-radius: 10px;
 }
 /*-------------------------------POST PAGE-----------------------------*/
 
 /*-----------------------------CONTACT US-------------------------------*/
-
-
-
-
 
 /*-----------------------------CONTACT US-------------------------------*/
 
@@ -641,9 +636,9 @@ p a {
     display: block;
   }
 
-.logo{
-  width: 97px;
-}
+  .logo {
+    width: 97px;
+  }
 
   .footer_container {
     flex-direction: column;
@@ -691,15 +686,15 @@ p a {
     flex-direction: column;
   }
 
-  .card .title_container .title a{
+  .card .title_container .title a {
     font-size: 2rem;
   }
 
-  .card .title_container .title a:hover{
+  .card .title_container .title a:hover {
     font-size: 2.05rem;
   }
 
-  .card .title_container .author_container a:hover{
+  .card .title_container .author_container a:hover {
     font-size: 16px;
   }
 
@@ -723,10 +718,6 @@ p a {
   .aside {
     height: 645px;
     width: 100%;
-  }
-  .ek_gorsel{
-    width: 100%;
-    margin-left: 0;
   }
 }
 
@@ -767,11 +758,5 @@ p a {
     height: 620px;
     width: 100%;
   }
-
-  .ek_gorsel{
-    width: 100%;
-    margin-left: 0;
-  }
 }
-
 /*----------------------------------@media---------------------------------*/
