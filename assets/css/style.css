@@ -496,7 +496,7 @@ footer {
 /*----------------------------------POST PAGE-----------------------------**/
 
 .text_container {
-  margin: 20px 0;
+  margin: 10px 0;
   width: 86%;
 }
 
@@ -526,7 +526,6 @@ footer {
 .main,
 .main:hover {
   height: 25px;
-  margin-bottom: 5px;
 }
 
 .content {
@@ -540,7 +539,7 @@ footer {
   width: 70%;
 }
 .aside {
-  height: 620px;
+  height: 670px;
   border: 1px solid #d5d5d5;
   border-radius: 10px;
   width: 27%;
@@ -628,7 +627,7 @@ p a {
 /*-------------------------------POST PAGE-----------------------------*/
 
 /*-----------------------------CONTACT US-------------------------------*/
-  
+
 
 
 
@@ -641,6 +640,10 @@ p a {
   .navbar ul li {
     display: block;
   }
+
+.logo{
+  width: 97px;
+}
 
   .footer_container {
     flex-direction: column;
@@ -688,12 +691,24 @@ p a {
     flex-direction: column;
   }
 
+  .card .title_container .title a{
+    font-size: 2rem;
+  }
+
+  .card .title_container .title a:hover{
+    font-size: 2.05rem;
+  }
+
+  .card .title_container .author_container a:hover{
+    font-size: 16px;
+  }
+
   .cards_container .cards .detail_container {
     width: 90%;
     margin-bottom: 20px;
   }
   .text_container ul li {
-    display: block;
+    font-size: 13px;
   }
   .content .main_side .post .author_container img {
     width: 6%;
@@ -706,6 +721,7 @@ p a {
     width: 100%;
   }
   .aside {
+    height: 645px;
     width: 100%;
   }
   .ek_gorsel{
@@ -748,6 +764,7 @@ p a {
     width: 100%;
   }
   .aside {
+    height: 620px;
     width: 100%;
   }
 
